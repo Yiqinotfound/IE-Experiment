@@ -7,7 +7,7 @@ from utils import load_data
 def main():
     data_path = "data/data.csv"
     y_names = ["RM", "IMPACT_RST_AVE", "DWTT_AVE"]
-    X_train_dict, X_test_dict, y_train_dict, y_test_dict = load_data(path=data_path)
+    X_train_dict, X_test_dict, y_train_dict, y_test_dict = load_data()
 
     for y_name in y_names:
         X_train = X_train_dict[y_name]

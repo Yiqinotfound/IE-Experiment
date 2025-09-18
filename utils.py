@@ -1,6 +1,6 @@
 import numpy as np
 
-def load_data(path:str):
+def load_data():
     y_names = ["RM", "IMPACT_RST_AVE", "DWTT_AVE"]
     X_train_dict = {}
     X_test_dict = {}
